@@ -5,7 +5,7 @@ lua54 'yes'
 
 author 'RexShackGaming'
 description 'rex-coords - admin coordinate copy tool for RSG Framework'
-version '1.0.0'
+version '3.0.0'
 
 shared_scripts { '@ox_lib/init.lua', 'shared/config.lua' }
 client_script 'client/client.lua'

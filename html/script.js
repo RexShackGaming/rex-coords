@@ -69,3 +69,56 @@ window.addEventListener('message', (e) => {
 document.getElementById('closeBtn').onclick = () => post('close');
 document.getElementById('refreshBtn').onclick = () => post('refresh').then(d => { build(d); toast(L.cl_refreshed, L.cl_position_updated); });
 document.addEventListener('keyup', (e) => { if (e.key === 'Escape') post('close'); });
+
+// ---- Draggable panel (drag by header, position remembered) ----
+(() => {
+  const panel = document.querySelector('.panel');
+  const handle = panel.querySelector('.header');
+  const KEY = 'rex-coords:pos';
+  let drag = null;
+
+  const clamp = (x, y) => [
+    Math.max(0, Math.min(x, window.innerWidth - panel.offsetWidth)),
+    Math.max(0, Math.min(y, window.innerHeight - panel.offsetHeight)),
+  ];
+  const place = (x, y) => {
+    [x, y] = clamp(x, y);
+    panel.classList.add('positioned');
+    panel.style.left = x + 'px';
+    panel.style.top = y + 'px';
+  };
+
+  function restore() {
+    try {
+      const p = JSON.parse(localStorage.getItem(KEY));
+      if (p) place(p.x, p.y);
+    } catch (e) {}
+  }
+
+  handle.addEventListener('mousedown', (e) => {
+    if (e.button !== 0 || e.target.closest('button')) return;
+    const r = panel.getBoundingClientRect();
+    drag = { dx: e.clientX - r.left, dy: e.clientY - r.top };
+    place(r.left, r.top);
+    panel.classList.add('dragging');
+    e.preventDefault();
+  });
+  document.addEventListener('mousemove', (e) => { if (drag) place(e.clientX - drag.dx, e.clientY - drag.dy); });
+  document.addEventListener('mouseup', () => {
+    if (!drag) return;
+    drag = null;
+    panel.classList.remove('dragging');
+    try { localStorage.setItem(KEY, JSON.stringify({ x: parseFloat(panel.style.left), y: parseFloat(panel.style.top) })); } catch (e) {}
+  });
+  // Double-click header to reset to centre
+  handle.addEventListener('dblclick', (e) => {
+    if (e.target.closest('button')) return;
+    panel.classList.remove('positioned');
+    panel.style.left = panel.style.top = '';
+    try { localStorage.removeItem(KEY); } catch (e) {}
+  });
+
+  new MutationObserver(() => { if (!app.classList.contains('hidden')) requestAnimationFrame(restore); })
+    .observe(app, { attributes: true, attributeFilter: ['class'] });
+  window.addEventListener('resize', () => { if (panel.classList.contains('positioned')) place(parseFloat(panel.style.left), parseFloat(panel.style.top)); });
+})();

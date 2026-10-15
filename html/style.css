@@ -36,3 +36,8 @@ background:linear-gradient(160deg,var(--rdr-panel-2),var(--rdr-panel));box-shado
 .toast .tm{font-size:13px;margin-top:2px;font-family:Consolas,monospace}
 @keyframes tin{from{opacity:0;transform:translateX(30px)}to{opacity:1;transform:none}}
 @keyframes tout{to{opacity:0;transform:translateX(30px)}}
+.panel{position:relative}
+.panel.positioned{position:fixed;margin:0}
+.header{cursor:move}
+.header .circle-btn{cursor:pointer}
+.panel.dragging{transition:none;opacity:.95}
