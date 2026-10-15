@@ -1,0 +1,19 @@
+{
+    "sv_lang_1": "Koordinaten-Tool öffnen (nur Admin)",
+    "cl_title": "Koordinaten",
+    "cl_subtitle": "Admin-Werkzeug",
+    "cl_hint": "Zeile anklicken zum Kopieren · ESC zum Schließen",
+    "cl_refresh": "Aktualisieren",
+    "cl_close": "Schließen",
+    "cl_copied": "Kopiert",
+    "cl_refreshed": "Aktualisiert",
+    "cl_position_updated": "Position aktualisiert",
+    "cl_lbl_xyz": "x, y, z",
+    "cl_lbl_xyzh": "x, y, z, Ausrichtung",
+    "cl_lbl_ground": "vector3 (Boden-Z)",
+    "cl_lbl_table": "Lua-Tabelle",
+    "cl_lbl_heading": "Ausrichtung",
+    "cl_lbl_rotation": "Rotation (vector3)",
+    "cl_badge_raw": "Roh",
+    "cl_badge_float": "Float"
+}

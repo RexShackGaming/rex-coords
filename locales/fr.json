@@ -1,0 +1,19 @@
+{
+    "sv_lang_1": "Ouvrir l'outil de coordonnées (admin uniquement)",
+    "cl_title": "Coordonnées",
+    "cl_subtitle": "Outil admin",
+    "cl_hint": "Cliquez sur une ligne pour copier · ÉCHAP pour fermer",
+    "cl_refresh": "Actualiser",
+    "cl_close": "Fermer",
+    "cl_copied": "Copié",
+    "cl_refreshed": "Actualisé",
+    "cl_position_updated": "Position mise à jour",
+    "cl_lbl_xyz": "x, y, z",
+    "cl_lbl_xyzh": "x, y, z, orientation",
+    "cl_lbl_ground": "vector3 (Z du sol)",
+    "cl_lbl_table": "Table Lua",
+    "cl_lbl_heading": "Orientation",
+    "cl_lbl_rotation": "Rotation (vector3)",
+    "cl_badge_raw": "Brut",
+    "cl_badge_float": "Float"
+}

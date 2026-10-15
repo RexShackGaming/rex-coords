@@ -1,0 +1,19 @@
+{
+    "sv_lang_1": "座標ツールを開く（管理者のみ）",
+    "cl_title": "座標",
+    "cl_subtitle": "管理者ツール",
+    "cl_hint": "行をクリックでコピー · ESCで閉じる",
+    "cl_refresh": "更新",
+    "cl_close": "閉じる",
+    "cl_copied": "コピーしました",
+    "cl_refreshed": "更新しました",
+    "cl_position_updated": "位置を更新しました",
+    "cl_lbl_xyz": "x, y, z",
+    "cl_lbl_xyzh": "x, y, z, 向き",
+    "cl_lbl_ground": "vector3（地面Z）",
+    "cl_lbl_table": "Luaテーブル",
+    "cl_lbl_heading": "向き",
+    "cl_lbl_rotation": "回転（vector3）",
+    "cl_badge_raw": "生データ",
+    "cl_badge_float": "Float"
+}

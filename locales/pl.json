@@ -1,0 +1,19 @@
+{
+    "sv_lang_1": "Otwórz narzędzie współrzędnych (tylko admin)",
+    "cl_title": "Współrzędne",
+    "cl_subtitle": "Narzędzie admina",
+    "cl_hint": "Kliknij wiersz, aby skopiować · ESC, aby zamknąć",
+    "cl_refresh": "Odśwież",
+    "cl_close": "Zamknij",
+    "cl_copied": "Skopiowano",
+    "cl_refreshed": "Odświeżono",
+    "cl_position_updated": "Pozycja zaktualizowana",
+    "cl_lbl_xyz": "x, y, z",
+    "cl_lbl_xyzh": "x, y, z, kierunek",
+    "cl_lbl_ground": "vector3 (Z podłoża)",
+    "cl_lbl_table": "Tabela Lua",
+    "cl_lbl_heading": "Kierunek",
+    "cl_lbl_rotation": "Obrót (vector3)",
+    "cl_badge_raw": "Surowe",
+    "cl_badge_float": "Float"
+}

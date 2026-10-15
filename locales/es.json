@@ -1,0 +1,19 @@
+{
+    "sv_lang_1": "Abrir la herramienta de coordenadas (solo admin)",
+    "cl_title": "Coordenadas",
+    "cl_subtitle": "Herramienta de admin",
+    "cl_hint": "Haz clic en una fila para copiar · ESC para cerrar",
+    "cl_refresh": "Actualizar",
+    "cl_close": "Cerrar",
+    "cl_copied": "Copiado",
+    "cl_refreshed": "Actualizado",
+    "cl_position_updated": "Posición actualizada",
+    "cl_lbl_xyz": "x, y, z",
+    "cl_lbl_xyzh": "x, y, z, orientación",
+    "cl_lbl_ground": "vector3 (Z del suelo)",
+    "cl_lbl_table": "Tabla Lua",
+    "cl_lbl_heading": "Orientación",
+    "cl_lbl_rotation": "Rotación (vector3)",
+    "cl_badge_raw": "Sin formato",
+    "cl_badge_float": "Float"
+}

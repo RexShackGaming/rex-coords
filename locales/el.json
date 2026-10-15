@@ -1,0 +1,19 @@
+{
+    "sv_lang_1": "Άνοιγμα εργαλείου συντεταγμένων (μόνο διαχειριστές)",
+    "cl_title": "Συντεταγμένες",
+    "cl_subtitle": "Εργαλείο διαχειριστή",
+    "cl_hint": "Κάντε κλικ σε μια γραμμή για αντιγραφή · ESC για κλείσιμο",
+    "cl_refresh": "Ανανέωση",
+    "cl_close": "Κλείσιμο",
+    "cl_copied": "Αντιγράφηκε",
+    "cl_refreshed": "Ανανεώθηκε",
+    "cl_position_updated": "Η θέση ενημερώθηκε",
+    "cl_lbl_xyz": "x, y, z",
+    "cl_lbl_xyzh": "x, y, z, κατεύθυνση",
+    "cl_lbl_ground": "vector3 (Z εδάφους)",
+    "cl_lbl_table": "Πίνακας Lua",
+    "cl_lbl_heading": "Κατεύθυνση",
+    "cl_lbl_rotation": "Περιστροφή (vector3)",
+    "cl_badge_raw": "Ακατέργαστο",
+    "cl_badge_float": "Float"
+}

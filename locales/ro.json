@@ -1,0 +1,19 @@
+{
+    "sv_lang_1": "Deschide instrumentul de coordonate (doar admin)",
+    "cl_title": "Coordonate",
+    "cl_subtitle": "Instrument admin",
+    "cl_hint": "Click pe un rând pentru a copia · ESC pentru a închide",
+    "cl_refresh": "Reîmprospătare",
+    "cl_close": "Închide",
+    "cl_copied": "Copiat",
+    "cl_refreshed": "Reîmprospătat",
+    "cl_position_updated": "Poziție actualizată",
+    "cl_lbl_xyz": "x, y, z",
+    "cl_lbl_xyzh": "x, y, z, orientare",
+    "cl_lbl_ground": "vector3 (Z sol)",
+    "cl_lbl_table": "Tabel Lua",
+    "cl_lbl_heading": "Orientare",
+    "cl_lbl_rotation": "Rotație (vector3)",
+    "cl_badge_raw": "Brut",
+    "cl_badge_float": "Float"
+}

@@ -1,0 +1,19 @@
+{
+    "sv_lang_1": "Open de coördinatentool (alleen admin)",
+    "cl_title": "Coördinaten",
+    "cl_subtitle": "Admin-tool",
+    "cl_hint": "Klik op een rij om te kopiëren · ESC om te sluiten",
+    "cl_refresh": "Vernieuwen",
+    "cl_close": "Sluiten",
+    "cl_copied": "Gekopieerd",
+    "cl_refreshed": "Vernieuwd",
+    "cl_position_updated": "Positie bijgewerkt",
+    "cl_lbl_xyz": "x, y, z",
+    "cl_lbl_xyzh": "x, y, z, richting",
+    "cl_lbl_ground": "vector3 (grond-Z)",
+    "cl_lbl_table": "Lua-tabel",
+    "cl_lbl_heading": "Richting",
+    "cl_lbl_rotation": "Rotatie (vector3)",
+    "cl_badge_raw": "Ruw",
+    "cl_badge_float": "Float"
+}
